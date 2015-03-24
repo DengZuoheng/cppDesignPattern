@@ -19,3 +19,8 @@ int main()
     duck.perform_quack();
     return 0;
 }
+
+/******************************************************************************
+reference:
+[1]:Eric Freeman , Elisabeth Freeman, Kathy Sierra, Bert Bates. 
+      Head First 设计模式. 中国电力出版社. pp 14-19
