@@ -4,10 +4,12 @@
 #include "target.h"
 #include "adaptee.h"
 
-class adapter:public target,private adaptee
+class adapter:public target
 {
 public:
     void _interface();
+private: 
+    adaptee __adaptee;
 };
 
 #endif
