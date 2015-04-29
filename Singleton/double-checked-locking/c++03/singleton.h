@@ -1,19 +1,22 @@
 #ifndef SINGLETON_H
 #define SINGLETON_H
-class Singleton 
+#include <boost/thread.hpp>
+class singleton 
 {
 public:
-    static volatile Singleton* volatile instance();
+    static volatile singleton* volatile instance();
 private:
 // one more volatile added
-    static Singleton* volatile __instance;
+    static volatile singleton* volatile __instance;
+    static boost::mutex __mtx;
 private:
     //私有的构造函数
-    Singleton();
+    singleton();
 };
 
+#endif
 /******************************************************************************
 reference:
-[1]:Scott Meyers ,Andrei Alexandrescu. C++ and the Perils of Double-Checked 
+[1]:scott Meyers ,Andrei Alexandrescu. C++ and the Perils of Double-Checked 
 Locking. sep. 2004
 ******************************************************************************/
