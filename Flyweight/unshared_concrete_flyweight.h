@@ -1,5 +1,5 @@
-#ifndef unshared_concrete_flyweight_h
-#define unshared_concrete_flyweight_h
+#ifndef UNSHARED_CONCRETE_FLYWEIGHT_H
+#define UNSHARED_CONCRETE_FLYWEIGHT_H
 #include <boost/smart_ptr.hpp>
 #include "flyweight.h"
 #include "concrete_flyweight.h"

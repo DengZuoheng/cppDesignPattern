@@ -1,5 +1,5 @@
-#ifndef flyweight_h
-#define flyweight_h
+#ifndef FLYWEIGHT_H
+#define FLYWEIGHT_H
 
 class flyweight
 {

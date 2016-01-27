@@ -1,5 +1,5 @@
-#ifndef concrete_flyweight_h
-#define concrete_flyweight_h
+#ifndef CONCRETE_FLYWEIGHT_H
+#define CONCRETE_FLYWEIGHT_H
 #include <string>
 #include "flyweight.h"
 

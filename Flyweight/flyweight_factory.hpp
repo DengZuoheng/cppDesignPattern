@@ -1,5 +1,5 @@
-#ifndef flyweight_factory_h
-#define flyweight_factory_h
+#ifndef FLYWEIGHT_FACTORY_H
+#define FLYWEIGHT_FACTORY_H
 #include <map>
 #include <utility>
 #include <boost/smart_ptr.hpp>
